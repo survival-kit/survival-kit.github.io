@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Survival Kit</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+	<meta name="Resource-type" content="Document" />
+	<link rel="stylesheet" type="text/css" href="dist/fullscreen.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	    <link rel="stylesheet" href="http://survival-kit.art/css/font-awesome.min.css">
+		<style>
+
+
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+
+
+
+	/* Backgrounds will cover all the section
+	* --------------------------------------- */
+	.section{
+		background-size: cover; color: #000;
+	}
+	.slide{
+		background-size: cover;
+	}
+
+	/* Defining each section background and styles
+	* --------------------------------------- */
+	#section0{
+		background-image: url(imgs/home-bg.jpg);
+	}
+	#section0 h1{
+
+
+		position: relative;
+	}
+	#section2{
+
+
+	}
+	#section3{
+
+	}
+	#section3 h1{
+
+	}
+	#section4 p {line-height: 2em; padding: 0 0 0 102px;}
+    #section4 .layer{
+		position: absolute;
+		z-index: 4;
+		width: 100%;
+		left: 0;
+		top: 43%;
+        color: #000;
+		/*
+		* Preventing flicker on some browsers
+		* See http://stackoverflow.com/a/36671466/1081396  or issue #183
+		*/
+		-webkit-transform: translate3d(0,0,0);
+		-ms-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+
+	/*solves problem with overflowing video in Mac with Chrome */
+	#section4{
+		overflow: hidden;
+	}
+
+	/*Adding background for the slides
+	* --------------------------------------- */
+	#slide1{
+		background-image: url(imgs/istanbul.jpg);
+		padding: 0 0 0 0;
+		background-size: cover;
+	}
+	#slide2{
+		background-image: url(imgs/istanbul1.jpg);
+		padding: 0 0 0 0;
+		background-size: cover;
+	}	
+	#slide3{
+		background-image: url(imgs/istanbul2.jpg);
+		padding: 0 0 0 0;
+		background-size: cover;
+	}
+
+	#slide2-1{
+		background-image: url(imgs/ekaterinburg.jpg);
+		padding: 0 0 0 0;
+		background-size: cover;
+	}
+	#slide2-2{
+		background-image: url(imgs/ekaterinburg2.jpg);
+		padding: 0 0 0 0;
+		background-size: cover;
+	}
+	#slide3-1{color: #fff;}
+	#slide3-2{
+		background-image: url(imgs/cansu.jpg);
+		padding: 0 0 0 0;
+		background-size: cover;
+		background-position: left top; 
+	}
+	#slide3-3{
+		background-image: url(imgs/petrakova.jpg);
+		padding: 0 0 0 0;
+		background-size: cover;
+	}
+	#slide3-5{
+		background-image: url(imgs/larissa.jpg);
+		padding: 0 0 0 0;
+		background-size: cover;
+		color: #fff;
+	}
+	#slide3-6{
+		background-image: url(imgs/esref.jpg);
+		padding: 0 0 0 0;
+		background-size: cover;
+		color: #000;
+	}
+	#slide3-6 h1 {color: #000;}
+	#slide3-7{
+		background-image: url(imgs/dima.jpg);
+		padding: 0 0 0 0;
+		background-size: cover;
+		color: #fff;
+
+	}
+		#slide3-8{
+		background-image: url(imgs/marina.jpg);
+		padding: 0 0 0 0;
+		background-size: cover;
+
+	}
+		#slide3-9{
+		background-image: url(imgs/didem.jpg);
+		padding: 0 0 0 0;
+		background-size: cover;
+
+	}
+		#slide3-10{
+		background-image: url(imgs/dmitriy.jpg);
+		padding: 0 0 0 0;
+		background-size: cover;
+
+	}
+	.slide{
+	    position:relative;
+	}
+	
+
+	/* Bottom menu
+	* --------------------------------------- */
+	#infoMenu li a {
+		color: #fff;
+	}
+		#video1, #video2{
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		top:0;
+		right:0;
+		width: 100%;
+		height: 100%;
+		background-size: 100% 100%;
+ 		background-color: black; /* in case the video doesn't fit the whole page*/
+  		background-image: /* our video */;
+  		background-position: center center;
+  		background-size: contain;
+   		object-fit: contain; /*cover video background */
+   		z-index:3;
+	}
+		/* Hiding video controls
+	* See: https://css-tricks.com/custom-controls-in-html5-video-full-screen/
+	* --------------------------------------- */
+	video::-webkit-media-controls {
+	  display:none !important;
+	}
+	</style>
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+</head>
+<body>
+
+
+<div id="fullpage">
+	<div class="section " id="section0">
+		<h1 style="width: 290px; padding: 0 0 0 100px; margin: 0 0 0 0;"> <img src="imgs/sk-logo.svg" alt=""/> </h1>
+
+	</div>
+	<div class="section" id="section1">
+		<div class="intro">
+			<h1 class="textpadding">About</h1>
+			<p>
+	      The exhibition “Survival Kit” sets out to raise questions on subtlety in artistic practices within countries that develop low intensity democracies, in this instance Turkey and Russia, and invites artists to research possible methodologies of survival in the context of (self-)censorship. While relations between the two states have been somewhat of a question mark lately, a spectrum of almost identical patterns occurs, particularly concerning consistent cuts of support for contemporary culture in all forms. A point at which socio-political art discontents both governments is by far gone and a vast majority of emerging artists lives in a state of uncertainty being unprotected from the forms of pressure that they expect to follow. 
+<br><br>
+At this specific point in time, direct imageries seem to lose not only their possibility to exist but also their emotional relevance, especially in politically oppressed communities. Artists face a situation in which they are being censored or induced with self-censorship, thus having to find a way to express themselves through more subtle conceptual frameworks to be heard by the audience and to be able to raise awareness locally and internationally. Because of current existing governmental control mechanisms and censorships of artistic and cultural events, there is a necessity to establish alternative methods to deal with these fragile and urgent topics. Otherwise, there is a possibility of losing even a scarce number of public or private spaces for artists to be heard, to exhibit artworks and to talk about them.
+<br><br>
+“Survival Kit” can be perceived as an attempt to remove the ambiguity by establishing a certain framework that may or may not be mandatory for contemporary art to function in the future to come. By collaborating for six months, five Turkish and five Russian artists will research different methodologies, such as camouflage and irony, to create works that are both united by the idea of “subtle art” yet divided by their specific subjects &
+practices. 
+<br><br>
+Artists: <strong>Larissa Araz, Cansu Çakar, Özgur Demirci, Didem Erk, Dmitriy Filippov, Evgeny Granilshchikov, Dmitriy Lyashenko, Irina Petrakova, Marina Ragozina, Eşref Yıldırım</strong>
+<br><br>
+Curators: <strong>Nikolay Alutin, Naz Cuguoğlu, Serhat Cacekli</strong>
+			</p>
+			<div><img src="imgs/about-img.jpg" width="400"/><br><p>Irina Petrakova, Levitating Cerement, 2017</p></div>
+		</div>
+	</div>
+	<div class="section" id="section2">
+	    <div class="slide" id="slide1"><h1 style="color: #000;">Istanbul</h1>
+	    <p style="color:#000; font-size: 100%; font-weight: bold;">September 8th – October 7th, 2017</p>
+	    <p style="color:#000; font-size: 90%;">Space Debris</p></div>
+	    <div class="slide" id="slide2"></div>
+	    <div class="slide" id="slide3"></div>
+	</div>
+<div class="section" id="section3">
+	    <div class="slide" id="slide2-1"><h1>Ekaterinburg</h1>
+	    <p style="color:#fff; font-size: 100%; font-weight: bold;">October 6th – October 26th, 2017</p>
+	    <p style="color:#fff; font-size: 90%;">Cultural Transit Foundation</p></div>
+	    <div class="slide" id="slide2-2"></div>
+	</div>
+<div class="section" style="overflow: hidden;" id="section4">
+<div class="slide" id="slide3-1">
+		<video id="video1" loop muted data-autoplay>
+			<source src="imgs/evgeny.mp4" type="video/mp4">
+			<source src="imgs/evgeny.webm" type="video/webm">
+		</video>
+		<div class="layer">
+			<h1 style="color: #fff;">At Dawn Our Dreams <br>Become Brighter</h1>
+				    <p style="color: #fff;font-size: 100%; font-weight: bold;">Evgeny Granilshchikov</p>
+</div>
+	    </div>		
+	    	    <div class="slide" id="slide3-2">
+	    	    
+	    	    <h1 style="color: #000;">The Grand Opening</h1>
+				    <p style="font-size: 100%; font-weight: bold;">Cansu Çakar</p>
+</div>
+	    <div class="slide" id="slide3-3">
+	    	    
+	    	    <h1 style="color: #000;">Coming Out</h1>
+				    <p style="font-size: 100%; font-weight: bold;">Irina Petrakova</p>
+</div>
+	    	    
+	    	    <div class="slide" id="slide3-4">
+		<video id="video1" loop muted data-autoplay>
+			<source src="imgs/ozgur.mp4" type="video/mp4">
+			<source src="imgs/ozgur.webm" type="video/webm">
+		</video>
+		<div class="layer">
+			<h1 style="color: #000;">Director's Cut</h1>
+				    <p style="font-size: 100%; font-weight: bold;">Özgur Demirci</p>
+</div>
+	    </div>
+	    <div class="slide" id="slide3-5">
+	    	    
+	    	    <h1>Nevermind</h1>
+				    <p style="font-size: 100%; font-weight: bold;">Larissa Araz</p>
+</div>
+<div class="slide" id="slide3-6">
+	    	    
+	    	    <h1>Postcards (Insult)</h1>
+				    <p style="font-size: 100%; font-weight: bold;">Eşref Yıldırım</p>
+</div>
+<div class="slide" id="slide3-7">
+	    	    
+	    	    <h1>All I Can Do</h1>
+				    <p style="font-size: 100%; font-weight: bold;">Dima Filippov</p>
+</div>
+<div class="slide" id="slide3-8">
+	    	    
+	    	    <h1 style="color: #000;">Censorship Celebrations</h1>
+				    <p style="font-size: 100%; font-weight: bold;">Marina Ragozina</p>
+</div>
+<div class="slide" id="slide3-9">
+	    	    
+	    	    <h1 style="color: #000;">Do We Ever Get Out <br>of the Monologue?</h1>
+				    <p style="font-size: 100%; font-weight: bold;">Didem Erk</p>
+</div>
+<div class="slide" id="slide3-10">
+	    	    
+	    	    <h1 style="color: #000;">How To Make Your <br>Country Great Again</h1>
+				    <p style="font-size: 100%; font-weight: bold;">Dmitriy Lyashenko</p>
+</div>
+
+	    	    </div></div>
+
+	</div>
+
+<script type="text/javascript" src="dist/fullscreen.js"></script>
+<script type="text/javascript" src="style.js"></script>
+<script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+        sectionsColor: ['#fff', '#000', '#fff', '#fff'],
+        css3: false
+    });
+</script>
+
+</body>
+</html>
